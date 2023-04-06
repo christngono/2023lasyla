@@ -1,0 +1,127 @@
+
+.lasy{
+    background-color:#F5F3EF;
+    box-shadow: 10px 10px 1px #EFEAE4;
+    padding:35px 35px 35px 35px;
+    &:hover{
+        cursor: pointer;
+      }
+  }
+  .section1a{
+      min-height:500px;
+      background-color: white!important;
+  }
+  .lasy>span{
+      font-size: 1.2rem;
+      font-weight:700;
+    
+  }
+  .orange{
+    background-color:#F4900C!important;
+}
+.button-action-g {  
+  
+    text-align:center;
+    padding:8px;
+    color:#fff!important;
+    font-weight: bold;
+    background: #58CC02;
+    border-radius: 15px;
+    box-shadow:0px 7px 0 0 #58A700;
+    font-size: 1.1rem;
+   
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    &:hover {
+        animation: pulse 2s ease forwards infinite;
+      }
+    }
+//     .button-action-g:hover{
+//         transform: translateY(2px);
+//  }
+ .banner-text{
+    color:#fff;
+    font-family: 'Nunito', sans-serif;
+ }
+
+ .button-action-r {  
+  
+    text-align:center;
+    padding:10px;
+    color:#fff!important;
+    font-weight: bold;
+    background: #FF4B4B;
+    border-radius: 15px;
+    box-shadow:0px 7px 0 0 #8F2A2A;
+    font-size: 1.2rem;
+    -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  &:hover{
+    cursor: pointer;
+}
+    }
+    .bg-ti{
+        font-size:2rem;
+        font-weight: 900;
+        font-family: 'Nunito', sans-serif;
+    }
+    .taille{
+        height: 400px;
+        padding-left:3rem;
+        padding-right:3rem;
+    }
+    .elmat{
+        padding:10px 10px; 
+        border-radius: 30px;
+        box-shadow: 3px 10px 1px #000;
+        font-weight: 900;
+    
+        text-align: center;
+        font-size:1.2rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .pluva{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+.lik{
+    color:white;
+    padding:8px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    border:1px solid rgba(255, 255, 255, 0.5);
+}
+.sect-motiv{
+
+}
+.motiv-title{
+    font-size:1.1rem;
+    text-align:center;
+    font-weight: bold;
+}
+.foot1{
+    background-color: #243438;
+    height:100px;
+    color:#fff;
+    
+}
+.foot2{
+    background-color: #243438; 
+    color:#fff; 
+}
+.foot1 span{
+    font-size:1.2rem;
+    font-weight:600;
+}
+.motiv-img{
+    border:5px solid #fff;
+}
+.card-motiv{
+    background-color: white;
+}
+video{
+    width:100%!important;
+}
+    

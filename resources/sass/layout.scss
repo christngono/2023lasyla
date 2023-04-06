@@ -1,0 +1,109 @@
+.formule-card{
+    width: 10rem;
+    border: 3px solid #1899D6;
+    border-radius: 0px 0px 30px 30px;
+}
+.formule-header{
+    
+    color:#1899D6;
+    background-color: #DDF4FF;
+border: 3px solid #1899D6;
+border-radius: 27px 30px 0px 0px;
+}
+.formule-price >span{
+  color:#000;
+  font-weight: bold;
+  font-size:1.2rem;
+  padding-left: 10px;
+}
+.formule-price{
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.lesson-img{
+    height:10rem;
+  
+}
+.lesson-img >img{
+    height:80px;
+    }
+.card-body{
+    background-color: #fff;
+    border-radius: 0 0 1rem 1rem;
+    font-weight: bold;
+}
+.co-l{
+background-color: #EFFFE4!important;
+}
+.co-n{
+    background-color: #ccc!important;
+}
+.card-lesson{
+    margin-top:10px;
+    box-shadow: 0 18px 20px rgb(0 0 0 / 5%);
+    position: relative;
+    width:12rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+    -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+.co-n {
+    filter: grayscale(80%);
+}
+// .co-n:hover{
+//     filter: none; 
+//     background-color: #EFFFE4!important;
+// }
+.card-lesson:hover{
+    transform: translateY(5px)
+}
+.bigin{
+    margin-left:10%;
+    margin-right:10%;
+}
+.classroom{
+    font-weight: bold;
+
+}
+.block-lesson{
+    padding:5px 10px;
+    border-radius: 30px;
+    background-color: #EBAD02;
+    color:#fff;
+    font-size:bold;
+    font-size: 1.3rem;
+}
+.lesson-big{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+.consigne{
+    background-color: #Ffff;
+    color: #2c2c2c;
+    border: 5px solid #FED232;
+    font-size: 0.9rem;
+    border-radius: 30px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.r{
+    color: #F52D60;
+    font-weight: 900;
+}
+.boot{
+    font-weight: bold;
+    font-style:italic;
+    font-weight: 900;
+    font-size:1rem;
+    color:#0673A3;
+}
+.foot{
+    font-size: 0.8rem;
+}

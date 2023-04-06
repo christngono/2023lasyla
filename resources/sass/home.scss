@@ -1,0 +1,221 @@
+
+
+html, body, .container-fluid,.contain-block {
+    height:100%;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F7F1ED;
+}
+.block-r, .block-l{
+    height: 100%;
+}
+.block-r{
+    background-color: #F7F1ED;
+}
+
+.block-l{
+    color:#fff;
+    background: linear-gradient(180deg, #FFD295 0%, rgba(255, 148, 0, 0.74) 0.01%);
+}
+// .container-fluid>.row{
+//   height: 100%;
+// }
+
+
+.num{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+
+}
+input{
+    border:3px rgb(237,237,237)!important;
+    border-radius:30px;
+}
+.formula{
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+.form-group{
+    padding-top:3px;
+}
+.form-control {
+    
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #F7F1ED!important;
+    background-clip: padding-box;
+    border: 3px solid #F7F1ED!important;
+    border-radius: 10.25rem!important;
+    
+}
+.ti{
+    font-weight: bold;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #FFF!important;
+}
+.bg-to{
+    background-color: #F7F1ED;
+}
+
+.button-action {  
+    display:block;
+    text-align:center;
+    padding:10px;
+    color:#fff!important;
+    font-weight: bold;
+    background: #58CC02;
+    border-radius: 15px;
+    box-shadow:0px 7px 0 0 #58A700;
+    font-size: 1.2rem;
+    -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+    }
+    .button-action:hover{
+        transform: translateY(2px);
+    }
+    .button-action-nof:hover{
+        transform: translateY(2px);
+    }
+    
+    .button-action-nof{
+    padding:10px;
+    border: 3px solid #ccc;
+    box-shadow:0px 7px 0 0 #58A700;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top:15px;
+    color:#000;
+    display:block;
+    text-align:center;
+    font-size: 1.1rem;
+    -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+    
+    }
+
+    h1{
+        font-size:2.5rem;
+        font-weight: 800;
+       
+    }
+
+    .link-footer > a{
+        padding:5px;
+    }
+    
+
+    /** page d'inscription **/
+
+    .menu-nav{
+        border-bottom: 2px solid #ccc;
+    }
+/**** new csss **/
+
+.navbar-lasylab {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 5rem;
+}
+a{
+    text-decoration: none!important;
+}
+.progress-bar{
+    height: 10px!important;
+}
+.progress{
+    height: 10px!important;
+}
+.nav-item>a{
+    color:#000!important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.nav-link>img{
+    height:30px;
+}
+.nav-link >.profil{
+    height: 40px;
+}
+// les textes de la pae d'accueil
+.hometexte h1{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+.hometexte span{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.bp{
+  font-weight: 800!important;
+}
+ .exa{
+    border-radius: 5%;
+    background-color: #fff;
+    color:orange;
+    Padding:6px 10px;
+    margin-right:2px;
+ }
+ //les checkbox
+ input{
+    display:none;
+  }
+  input#size:checked~div{
+    width: 100px;
+    height: 100px;
+  }
+  /* both checkbox are checked */
+//   label{ 
+//         text-align:center;
+//         padding:8px;
+//         color:#777777;
+//         background: #fff;
+//         border-radius: 15px;
+//         box-shadow:0px 7px 0 0 #E5E5E5;
+//         font-size: 0.9rem; 
+//         cursor: pointer; 
+    
+//   }
+  input:checked+.bg-act{
+    background: #DDF4FF;
+    box-shadow:0px 7px 0 0 #84D8FF;
+    color:#84D8FF ;
+  }
+ 
+  .bg-act{
+       
+    text-align:center;
+    padding:8px;
+    color:#777777;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow:0px 7px 0 0 #E5E5E5;
+    font-size: 0.9rem; 
+    cursor: pointer; 
+}
+.bg-act:hover {
+    text-align: center;
+    padding: 8px;
+    color: #84D8FF;
+    background: #DDF4FF;
+    box-shadow:0px 7px 0 0 #1899D6;
+    cursor: pointer;
+}
+nav{
+    margin-left: var(--bs-gutter-x, -0.75rem)!important;
+    margin-right: var(--bs-gutter-x, -0.75rem)!important;
+}
+/*-----------------------------------------*/
+
+
