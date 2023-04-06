@@ -17,16 +17,28 @@ use App\Http\Middleware\Authenticate;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+
 
 
 // show register create form
-Route::get('/', [AuthController::class, 'create'])->name('onboard');
+Route::prefix('{locale}')
+    ->where(['locale' => '[a-zA-Z]{2}'])
+    ->middleware('setlocale')
+    ->group(function () {
+        Route::get('/', [OnboardingController::class, 'general'])->name('general');
+        Route::get('/part', [OnboardingController::class, 'part'])->name('part');
+        Route::get('/demo', [OnboardingController::class, 'demo'])->name('demo');
+        Route::get('/about', [OnboardingController::class, 'about'])->name('about');
+
+    });
+Route::get('/', function () {
+    return redirect(app()->getLocale());
+});
+
+Route::get('/inscription', [AuthController::class, 'create'])->name('onboard');
 Route::post('/user', [AuthController::class, 'store']);
-Route::get('/general', [OnboardingController::class, 'general'])->name('general');
-Route::get('/general/part', [OnboardingController::class, 'part'])->name('part');
+
+
 
 //check the choice
 Route::get('/choix1', [AuthController::class, 'onboard1'])->name('onboard1')->middleware('auth');

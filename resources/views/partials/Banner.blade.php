@@ -6,10 +6,11 @@
                 </video>
         </div>
         <div class="col-lg-6 banner-text">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Avec lasylab révélez tout votre potentiel</h1>
-            <p class="lead">Que vous soyez elève, etudiant, professionnel; scolarisé ou non, Grâce à nos contenus ludiques,  Apprenez sans pression des nouvelles compétences</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3">{{__("title")}}</h1>
+            <p class="lead">
+                {{__("MESSAGE_ACCUEIL")}}</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a class="button-action-r px-4 me-md-2">Voir la demo</a>
+                <a class="button-action-r px-4 me-md-2" href="{{url('en/demo')}}">{{__("bouton1")}}</a>
             </div>
         </div>
     </div>

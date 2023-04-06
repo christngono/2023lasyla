@@ -17,10 +17,6 @@ class OnboardingController extends Controller
     // }
 
 
-    public function about()
-    {
-        return view('about');
-    }
     public function lessontest()
     {
         return view('test.lessontest');
@@ -44,5 +40,13 @@ class OnboardingController extends Controller
     public function part()
     {
         return view('part');
+    }
+    public function demo()
+    {
+        return view('demo');
+    }
+    public function about()
+    {
+        return view('about');
     }
 }

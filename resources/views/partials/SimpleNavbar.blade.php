@@ -5,8 +5,16 @@
         </a>
     </div>
     <div class="col-11 px-2 text-end ">
-        <a href='#'  width="60" class="lik ">Connexion</a>
-        <a class="button-action-g px-4 me-md-2">inscription</a>
+        <a href="{{ url(app()->getLocale() == 'fr'? 'en':'fr' ) }}">
+            @if(app()->getLocale()=='fr')
+            <img src="{{asset('images/en.png')}}" width='15'>
+            @else
+            <img src="{{asset('images/fr.png')}}" width='15'>
+            @endif
+        </a>
+        <a href='#'  width="60" class="lik ">{{__("menu1")}}</a>
+    
+        <a class="button-action-g px-4 me-md-2">{{__("menu2")}}</a>
       </div>
   </nav>
 
